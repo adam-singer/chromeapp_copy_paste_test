@@ -1,0 +1,22 @@
+{
+  "name": "Chromeapp copy paste test",
+  "version": "1",
+
+  "manifest_version": 2,
+
+  "icons": {"128": "dart_icon.png"},
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+
+  "permissions": [
+    "serial",
+    "storage",
+    "videoCapture",
+    // permissions for clipboard
+    "clipboardRead",
+    "clipboardWrite" ]
+}

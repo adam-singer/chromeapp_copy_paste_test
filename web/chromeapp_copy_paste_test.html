@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chromeapp copy paste test</title>
+    <link rel="stylesheet" href="chromeapp_copy_paste_test.css">
+  </head>
+  <body>
+
+    <div id="container" style="position:relative;">
+      <div id="div1" style="position:absolute; top:0px; left:0px;" size="0">
+        <input id="copy_in_buffer"/>
+      </div>
+      <div id="div2" style="position:absolute; top:0px; left:0px;">
+        <input id="copy_out_buffer" size="100"/>
+      </div>
+    </div>
+
+    <script src="packages/chrome/bootstrap.js" defer></script>
+    <script src="chromeapp_copy_paste_test.dart" type="application/dart"></script>
+  </body>
+</html>
